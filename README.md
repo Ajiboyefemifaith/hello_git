@@ -1,10 +1,13 @@
-# Hello-GIT
-# Git & GitHub Cheat Sheet
+#   Hello-GIT
+
+---
+
+### Git & GitHub Cheat Sheet
 *A Beginner's Practical Reference Guide*
 
 ---
 
-# What is Git?
+#### What is Git?
 
 Git is a Version Control System (VCS).
 
@@ -19,7 +22,7 @@ Git keeps a complete history of every change you make to your code, allowing you
 
 ---
 
-# What is GitHub?
+#### What is GitHub?
 
 GitHub is a cloud platform that stores Git repositories.
 
@@ -37,24 +40,24 @@ GitHub simply stores your Git repositories online.
 
 ---
 
-# Git Workflow
+#### Git Workflow
 
 Every project follows this lifecycle:
 
 Working Directory
         │
         ▼
-Staging Area
+Staging Area (git add)
         │
         ▼
-Commit (Local Repository)
+Commit (Local Repository) (git commit)
         │
         ▼
-GitHub (Remote Repository)
+GitHub (Remote Repository). (git push)
 
 ---
 
-# Important Git Concepts
+#### Important Git Concepts
 
 Repository (Repo)
 A project managed by Git.
@@ -88,7 +91,7 @@ Download changes from GitHub.
 
 ---
 
-# Checking Git Installation
+#### Checking Git Installation
 
 Check if Git is installed
 
@@ -104,7 +107,7 @@ git version 2.xx.x
 
 ---
 
-# Creating a Project
+#### Creating a Project
 
 Create a folder
 
@@ -126,7 +129,7 @@ code .
 
 ---
 
-# Initialize Git
+#### Initialize Git
 
 Start tracking the project
 
@@ -151,7 +154,7 @@ Never delete or edit it manually.
 
 ---
 
-# Check Project Status
+#### Check Project Status
 
 ```bash
 git status
@@ -168,7 +171,7 @@ This is the most frequently used Git command.
 
 ---
 
-# Stage Files
+#### Stage Files
 
 Stage one file
 
@@ -188,7 +191,7 @@ Meaning:
 
 ---
 
-# Commit Changes
+#### Commit Changes
 
 ```bash
 git commit -m "Initial commit"
@@ -204,7 +207,7 @@ Think of a commit as a saved checkpoint.
 
 ---
 
-# View Commit History
+####vv View Commit History
 
 ```bash
 git log
@@ -220,7 +223,7 @@ Shows all previous commits.
 
 ---
 
-# Create a GitHub Repository
+#### Create a GitHub Repository
 
 1. Login to GitHub
 2. Click New Repository
@@ -230,7 +233,7 @@ Shows all previous commits.
 
 ---
 
-# Connect Local Project to GitHub
+#### Connect Local Project to GitHub
 
 ```bash
 git remote add origin https://github.com/username/project.git
@@ -244,7 +247,7 @@ git remote -v
 
 ---
 
-# Upload Project to GitHub
+#### Upload Project to GitHub
 
 First push
 
@@ -264,7 +267,7 @@ Upload commits from your computer to GitHub.
 
 ---
 
-# Download Changes
+#### Download Changes
 
 ```bash
 git pull
@@ -278,7 +281,7 @@ Always pull before starting work.
 
 ---
 
-# Clone a Repository
+#### Clone a Repository
 
 Download an existing repository
 
@@ -290,7 +293,7 @@ Creates a copy on your computer.
 
 ---
 
-# Branches
+#### Branches
 
 See branches
 
@@ -324,7 +327,7 @@ git switch main
 
 ---
 
-# Merge Branch
+#### Merge Branch
 
 Switch to main
 
@@ -342,7 +345,7 @@ Combines feature-login into main.
 
 ---
 
-# Delete Branch
+#### Delete Branch
 
 Delete local branch
 
@@ -352,7 +355,7 @@ git branch -d feature-login
 
 ---
 
-# .gitignore
+#### .gitignore
 
 Create a file named
 
@@ -376,7 +379,7 @@ Git ignores these files.
 
 ---
 
-# Undo Commands
+#### Undo Commands
 
 Unstage a file
 
@@ -406,7 +409,7 @@ git reset --hard HEAD~1
 
 ---
 
-# Check Differences
+#### Check Differences
 
 Compare changes
 
@@ -418,7 +421,7 @@ Shows exactly what changed.
 
 ---
 
-# Rename a Branch
+#### Rename a Branch
 
 ```bash
 git branch -m new-branch-name
@@ -426,7 +429,7 @@ git branch -m new-branch-name
 
 ---
 
-# Remove Remote
+#### Remove Remote
 
 ```bash
 git remote remove origin
@@ -434,7 +437,7 @@ git remote remove origin
 
 ---
 
-# See Remote Repository
+#### See Remote Repository
 
 ```bash
 git remote -v
@@ -442,7 +445,7 @@ git remote -v
 
 ---
 
-# Tag a Version
+#### Tag a Version
 
 Create tag
 
@@ -460,7 +463,7 @@ Useful for releases.
 
 ---
 
-# Daily Professional Workflow
+## Daily Professional Workflow
 
 Start your day
 
@@ -498,7 +501,7 @@ Done.
 
 ---
 
-# Typical AI Project Workflow
+#### Typical AI Project Workflow
 
 ```bash
 git pull
@@ -516,7 +519,7 @@ git push
 
 ---
 
-# Commit Message Examples
+#### Commit Message Examples
 
 Good
 
@@ -554,7 +557,7 @@ Always explain WHAT changed.
 
 ---
 
-# Common Git Errors
+#### Common Git Errors
 
 "fatal: not a git repository"
 
@@ -596,7 +599,7 @@ Check GitHub login or SSH keys.
 
 ---
 
-# Best Practices
+#### Best Practices
 
 ✔ Commit often
 
@@ -618,7 +621,7 @@ Check GitHub login or SSH keys.
 
 ---
 
-# Git Command Summary
+## Git Command Summary
 
 | Command | Purpose |
 |----------|----------|
@@ -646,7 +649,7 @@ Check GitHub login or SSH keys.
 
 ---
 
-# The Golden Git Workflow
+### The Golden Git Workflow
 
 Write Code
 
@@ -667,23 +670,14 @@ git commit -m "Describe your work"
 git push
 
 Repeat every day.
-#### Git Lifecycle
-Working Directory
 
-↓
-
-Staging Area
-
-↓
-
-Commit
-
-↓
-
-GitHub
+---
 
 ## License 
+
 MIT
+
+---
 
 ## Author
 
