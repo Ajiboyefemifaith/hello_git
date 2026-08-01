@@ -1,5 +1,19 @@
-## Hello-GIT
+# Hello-GIT
 
+#### Git Lifecycle
+Working Directory
+
+↓
+
+Staging Area
+
+↓
+
+Commit
+
+↓
+
+GitHub
 
 ## License 
 MIT
